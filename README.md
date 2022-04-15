@@ -20,4 +20,5 @@ host someinternalhost
         ProxyJump bastion
 
 ##Данные для проверки
-bastion_IP = 51.250.14.188 someinternalhost_IP = 10.128.0.20
+bastion_IP = 51.250.14.188
+someinternalhost_IP = 10.128.0.20

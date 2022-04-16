@@ -1,5 +1,4 @@
 # RustamRuzibaev_infra
-<<<<<<< HEAD
 ## Доступ к someinternalhost в одну команду
 Для доступа к someinternalhost в одну команду из рабочего устройства можно использовать ProxyJump:
 ssh -J user@bastion user@someinternalhost
@@ -20,6 +19,6 @@ host someinternalhost
         User appuser
         ProxyJump bastion
 
-##Данные для проверки
+## Данные для проверки
 bastion_IP = 51.250.14.188
 someinternalhost_IP = 10.128.0.20

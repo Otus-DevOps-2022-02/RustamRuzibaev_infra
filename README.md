@@ -11,7 +11,7 @@ chmod a+x ~/.ssh/config
 В файл config добавить следующий текст:
 
 host bastion
-        Hostname 51.250.14.188
+        Hostname 51.250.65.17
         User appuser
 
 host someinternalhost
@@ -20,5 +20,5 @@ host someinternalhost
         ProxyJump bastion
 
 ## Данные для проверки
-bastion_IP = 51.250.14.188
+bastion_IP = 51.250.65.17
 someinternalhost_IP = 10.128.0.20

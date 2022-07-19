@@ -1,0 +1,11 @@
+{
+        "folder_id": "12345678912345678912",
+	    "service_account_key_file": "packer/key.json.example",
+        "source_image_family": "ubuntu-1604-lts",
+        "instance_mem_gb" : "2",
+        "disk_name": "reddit-app-disk",
+        "disk_size_gb": "8",
+        "instance_name":"rustamruzibaev-instance-{{timestamp}}",
+        "image_name": "my-app-rustamruzibaev-{{timestamp}}",
+        "image_family" : "reddit-full"
+}

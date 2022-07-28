@@ -1,0 +1,7 @@
+token_id                 = "0"
+cloud_id                 = "1"
+folder_id                = "2"
+image_id                 = "3"
+public_key_path          = "4"
+private_key_path         = "5"
+subnet_id                = "6"
